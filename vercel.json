@@ -1,19 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/landing-page-new",
-      "dest": "/landing-page-new.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {"source": "/landing-page-new", "destination": "/landing-page-new.html"}
   ]
 }
