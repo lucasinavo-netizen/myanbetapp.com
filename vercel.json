@@ -1,10 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/landing-page-new",
-      "destination": "/landing-page-new.html"
-    },
-    {
       "source": "/go/ba",
       "destination": "/api/go"
     },
