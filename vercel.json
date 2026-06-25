@@ -1,21 +1,16 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
       "source": "/landing-page-new",
       "destination": "/landing-page-new.html"
-    }
-  ],
-  "redirects": [
+    },
     {
       "source": "/go/ba",
-      "destination": "https://www.rr95k.com/?ch=0cf28df51e",
-      "permanent": false
+      "destination": "/api/go"
     },
     {
       "source": "/go/ba2",
-      "destination": "https://www.rr95k.com/?ch=0cf28df51e",
-      "permanent": false
+      "destination": "/api/go"
     }
   ],
   "headers": [
@@ -40,5 +35,6 @@
         }
       ]
     }
-  ]
+  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
